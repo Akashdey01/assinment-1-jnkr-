@@ -182,7 +182,7 @@
 }
 .footer-section .footer-main{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
 }
 .footer-section .footer-left{
     max-width: 30%;
