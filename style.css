@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    font-family: 'Work Sans', sans-serif;
+}
+/* ---- header section styles ---- */
+
+.header-section img{
+    width: 100%;
+}
+.header-container{
+    position: absolute;
+    top: 25%;
+    right: 10%;
+    max-width: 40%;
+    text-align: right;
+}
+.header-container h2{
+    font-weight: 700;
+    font-size: 65px;
+    color: #FFFFFF;
+}
+.header-container p{
+    line-height: 26px;
+    font-size: 18px;
+    color: #FFFFFF;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.header-container .header-btn {
+	font-weight: 600;
+	font-size: 20px;
+	color: #005FAC;
+	padding: 10px 10px;
+    border:none;
+    border-radius: 5px;
+    transition: .5s;
+}
+.header-container .header-btn:hover{
+    background-color: #79d6f5;
+    color:#000;
+}
+
+/* ---- My failures section styles ---- */
+
+.failures-section{
+    margin: 130px 200px;
+}
+.failures-section .main-column{
+    display: flex;
+}
+.failures-section .right-column {
+	width: 28%;
+	position: absolute;
+	top: 1170px;
+	right: 16%;
+}
+.failures-section .right-column h2{
+    font-weight: 700;
+    font-size: 40px;
+    color: #151414;
+}
+.failures-section .right-column p{
+    color: #444343;
+    font-size: 18px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.failures-section .right-column ul{
+    color: #444343;
+    font-size: 18px;
+    line-height: 35px;
+    list-style: none;
+    padding-left: 5px;
+}
+.failures-section .right-column .fa-solid{
+    color: lightgreen;
+}
