@@ -135,3 +135,41 @@
 	width: 70%;
 	padding-left: 50px;
 }
+
+/* ---- Awlays keep a positive mindset ---- */
+
+.positive-section{
+    margin: 130px 230px;
+    position: relative;
+}
+.positive-section img{
+    background-image: url("images/watch.png");
+}
+.positive-section .positive-container{
+    position:absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 30%;
+    padding-left: 60px;
+}
+.positive-section .positive-container h2{
+    font-weight: 700;
+    font-size: 28px;
+    color:#fff
+}
+.positive-section .positive-container .positive-btn{
+    margin-top: 15px;
+	font-size: 20px;
+	padding: 10px 10px;
+    border:none;
+    border-radius: 5px;
+    transition: .5s;
+    color: #005FAC;
+}
+.positive-section .positive-container .positive-btn:hover{
+    background-color: #000;
+    color:#62cdf0;
+}
+
+
+
